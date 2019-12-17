@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#accordion{
+    .accord-item{
+        .accord-btn{
+            width: 100%;
+            padding: 10px;
+            background: red;
+            color: #fff;
+            border: none;
+            font-weight: 700;
+            border-bottom: 1px solid #ddd;
+        }
+        .panel{
+            padding: 20px;
+            margin-bottom: 3px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+    }
+}

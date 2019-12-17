@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#accordion .accord-item .accord-btn {
+  width: 100%;
+  padding: 10px;
+  background: red;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+}
+
+#accordion .accord-item .panel {
+  padding: 20px;
+  margin-bottom: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+}
+
+#accordion .accord-item .active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
